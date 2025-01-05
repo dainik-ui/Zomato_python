@@ -30,7 +30,9 @@ A countplot to visualize the distribution of different types of restaurants.
 
 3. Votes by Restaurant Type
 A line plot showing the total number of votes grouped by restaurant type.
-4. Rating Distribution
+![image](https://github.com/user-attachments/assets/37305246-08bd-49c4-8890-af5473253f96)
+
+5. Rating Distribution
 A histogram to display the distribution of restaurant ratings.
 ![image](https://github.com/user-attachments/assets/fd447eba-9570-4dde-a86b-b886baa77cc7)
 
