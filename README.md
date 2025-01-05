@@ -2,43 +2,37 @@
 
 ![](https://github.com/dainik-ui/Zomato_python/blob/main/zomato-app.png)
 
-This project focuses on analyzing a dataset from Zomato to uncover insights about restaurant trends, customer behavior, and restaurant ratings. Various Python libraries such as Pandas, NumPy, Matplotlib, and Seaborn are used for data analysis and visualization.
+## Project Overview
 
-## Overview
+This project involves analyzing a dataset from Zomato to uncover insights about restaurant ratings, online order availability, cost distribution, and more. The analysis utilizes Python libraries such as NumPy, Pandas, Matplotlib, and Seaborn for data manipulation and visualization.
+## Dataset Information
+The dataset contains information about 148 restaurants with the following columns:
+name: Name of the restaurant
+online_order: Availability of online order (Yes/No)
+book_table: Availability of table booking (Yes/No)
+rate: Restaurant rating
+votes: Number of votes received
+approx_cost(for two people): Approximate cost for two people
+listed_in(type): Type of the restaurant
 
-This project analyzes data from Zomato, focusing on factors like restaurant ratings, votes, approximate costs for two people, and the availability of online orders or table bookings.
+## Key Analysis and Visualizations
 
-## Key analyses include:
-Distribution of restaurant types.
-Ratings distribution.
-Relationship between cost, votes, and other features.
-Heatmap analysis of online order availability across restaurant types.
-Analysis Performed
 1. Countplot of Restaurant Types
-Visualizes the distribution of restaurants by type.
-
+A countplot to visualize the distribution of different types of restaurants.
 2. Votes by Restaurant Type
-Groups votes by restaurant types and displays them using a line plot.
-
+A line plot showing the total number of votes grouped by restaurant type.
 3. Rating Distribution
-Displays the distribution of ratings using a histogram.
-
-4. Approximate Cost Analysis
-Countplot of approximate costs for two people.
-
-5. Online Order and Rating Relationship
-Boxplot showing how online orders affect ratings.
-
-6. Heatmap of Online Orders Across Restaurant Types
-Heatmap visualizing the distribution of online orders across restaurant types.
-
+A histogram to display the distribution of restaurant ratings.
+4. Cost Distribution
+A countplot illustrating the distribution of approximate costs for two people.
+5. Boxplot of Ratings by Online Order Availability
+A boxplot comparing restaurant ratings based on whether they offer online orders.
+6. Heatmap of Restaurant Type vs Online Order
+A heatmap showing the count of restaurants by type and their online order availability.
 7. Online Order Availability Pie Chart
-Pie chart showing the availability of online orders.
+A pie chart visualizing the percentage of restaurants offering online orders.
+8. Scatter Plot of Cost vs Votes
+A scatter plot to explore the relationship between the approximate cost for two people and the number of votes, categorized by restaurant type.
 
-8. Cost vs. Votes Scatterplot
-Analyzes the relationship between approximate cost for two people and votes.
-
-## Results
-
-This project provides insights into customer preferences, restaurant ratings, and cost analysis, aiding in better decision-making for businesses and users.
-
+## Conclusion
+This project provides insights into restaurant data from Zomato, offering a better understanding of customer preferences and restaurant performance. The visualizations help in making data-driven decisions for business strategies.
