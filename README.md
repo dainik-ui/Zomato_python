@@ -7,12 +7,19 @@
 This project involves analyzing a dataset from Zomato to uncover insights about restaurant ratings, online order availability, cost distribution, and more. The analysis utilizes Python libraries such as NumPy, Pandas, Matplotlib, and Seaborn for data manipulation and visualization.
 ## Dataset Information
 The dataset contains information about 148 restaurants with the following columns:
+
 name: Name of the restaurant
+
 online_order: Availability of online order (Yes/No)
+
 book_table: Availability of table booking (Yes/No)
+
 rate: Restaurant rating
+
 votes: Number of votes received
+
 approx_cost(for two people): Approximate cost for two people
+
 listed_in(type): Type of the restaurant
 
 ## Key Analysis and Visualizations
