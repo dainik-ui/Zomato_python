@@ -26,19 +26,21 @@ listed_in(type): Type of the restaurant
 
 1. Countplot of Restaurant Types
 A countplot to visualize the distribution of different types of restaurants.
-2. Votes by Restaurant Type
+![image](https://github.com/user-attachments/assets/77a0ec62-2368-4974-8069-bdb8788644b8)
+
+3. Votes by Restaurant Type
 A line plot showing the total number of votes grouped by restaurant type.
-3. Rating Distribution
+4. Rating Distribution
 A histogram to display the distribution of restaurant ratings.
-4. Cost Distribution
+5. Cost Distribution
 A countplot illustrating the distribution of approximate costs for two people.
-5. Boxplot of Ratings by Online Order Availability
+6. Boxplot of Ratings by Online Order Availability
 A boxplot comparing restaurant ratings based on whether they offer online orders.
-6. Heatmap of Restaurant Type vs Online Order
+7. Heatmap of Restaurant Type vs Online Order
 A heatmap showing the count of restaurants by type and their online order availability.
-7. Online Order Availability Pie Chart
+8. Online Order Availability Pie Chart
 A pie chart visualizing the percentage of restaurants offering online orders.
-8. Scatter Plot of Cost vs Votes
+9. Scatter Plot of Cost vs Votes
 A scatter plot to explore the relationship between the approximate cost for two people and the number of votes, categorized by restaurant type.
 
 ## Conclusion
